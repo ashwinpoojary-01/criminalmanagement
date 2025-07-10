@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #d9a7c7, #fffcdc); /* light purple to yellow */
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  color: #000; /* black heading */
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #ffffffcc;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 600px;
+  margin: 20px 0;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  font-size: 16px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.05);
+}
+
+input[type="submit"], button {
+  background: #ff758c;  /* pinkish-red */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover, button:hover {
+  background: #ff416c;  /* dark pink */
+}
+
+table {
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 14px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #ffc8dd;  /* light pink */
+  color: #000; /* black headings */
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #fcefee;
+}
+
+a button {
+  margin-top: 15px;
+}
